@@ -18,6 +18,4 @@ namespace XUnitTestProject.TestClasses
         public IEnumerator<object[]> GetEnumerator() => _data.GetEnumerator();
         IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
     }
-
-   
 }

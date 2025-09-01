@@ -42,7 +42,7 @@ namespace XUnitTestProject.TestClasses
         /// </summary>
         protected void LogData(int a, int b, int expected)
         {
-            _output.WriteLine($"P1: {a} \n P2: {b} \nResukt {expected}");
+            _output.WriteLine($"P1: {a} \n P2: {b} \nResult {expected}");
         }
     }
 }
